@@ -1,10 +1,10 @@
 ## Introduction
 
-This project is in an implementation of [this](https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.41.4925) and [this](https://researchgate.net/publication/272376728_Two-Dimensional_Hidden_Markov_Models_in_Road_Signs_Recognition) in Julia. 
+This project is in an implementation of [this](https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.41.4925) article and [this](https://researchgate.net/publication/272376728_Two-Dimensional_Hidden_Markov_Models_in_Road_Signs_Recognition) article in Julia. 
 
 ## Overview of two-dimensional hidden markov model
 
-The goal of this is to overview is to
+The goal of this is to overview is to help me when I am writing the module.
 
 ### What is a 2d HMM
 
@@ -19,4 +19,3 @@ We need 7 parameters to define a 2d HMM:
 5. B = {b_i,j,m} : Observation probability matrix ; 1 <= i,j <= N, 1 <= m <= M
 6. PI = {pi_i,j,k} : Initial probability ; 1 <= i,j <= N, 1 <= k <= K
 7. O = {o_t}     : Block matrix of observation sequence ; o_t square matrix of size k_1 x k_2 and 1 <= t <= T
-
