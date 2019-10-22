@@ -1,0 +1,7 @@
+name = "HMM2d"
+uuid = "a7eef64f-b362-43e3-9d45-312d4c31c336"
+authors = ["Benjamin Sebastian <bensebastian@mac.com>"]
+version = "0.1.0"
+
+[deps]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
