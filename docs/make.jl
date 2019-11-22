@@ -7,6 +7,7 @@ using Random
 using HMM2d
 
 Random.seed!(2019)
+ENV["GKSwstype"] = "nul"
 #=
 find_examples() = map(x -> joinpath("examlpes/", split(basename(x), ".")[1]), glob("*.jl", "examples/"))
 
