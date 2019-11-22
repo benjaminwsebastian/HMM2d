@@ -6,5 +6,5 @@ HMM2d([])
 
 =#
 
-struct HMM2d{F,T}
-    
+struct HMM2d
+end
