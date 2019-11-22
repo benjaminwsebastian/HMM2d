@@ -6,7 +6,7 @@ using Glob
 using Random
 using HMM2d
 
-Random.seed(2019)
+Random.seed!(2019)
 #=
 find_examples() = map(x -> joinpath("examlpes/", split(basename(x), ".")[1]), glob("*.jl", "examples/"))
 
