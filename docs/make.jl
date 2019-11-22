@@ -20,4 +20,4 @@ end
 
 makedocs(sitename = "HMM2d", modules = [HMM2d], pages = ["index.md", "Manual" => ["placeholder.md"], "theory.md", "_index.md" ])
 
-deploydocs( repo = "github.com/benjaminwsebastian/HMM2d.jl.git" )
+deploydocs( repo = "github.com/benjaminwsebastian/HMM2d.git" )
