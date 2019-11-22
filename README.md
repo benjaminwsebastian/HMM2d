@@ -1,4 +1,5 @@
 ## Introduction
+[![Build Status](https://travis-ci.com/benjaminwsebastian/HMM2d.svg?branch=master)](https://travis-ci.com/benjaminwsebastian/HMM2d)
 
 This project is in an implementation of [this](https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.41.4925) article and [this](https://researchgate.net/publication/272376728_Two-Dimensional_Hidden_Markov_Models_in_Road_Signs_Recognition) article in Julia. 
 
